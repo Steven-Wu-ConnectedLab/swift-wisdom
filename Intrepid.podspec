@@ -34,6 +34,12 @@ Pod::Spec.new do |s|
     cs.dependency 'IP-UIKit-Wisdom', '0.0.10'
   end
 
+  s.subspec "Core-App-Extension-Safe" do |ext|
+    ext.source_files = "SwiftWisdom/Core/**/**/*.swift"
+    ext.exclude_files = "SwiftWisdom/Core/UIKit/UIApplication+Extensions.swift"
+    ext.dependency 'IP-UIKit-Wisdom', '0.0.10'
+  end
+
   s.subspec "Rx" do |rx|
     rx.source_files = "SwiftWisdom/Rx/**/**/*.swift"
     rx.dependency 'RxSwift', '~> 4.0'
