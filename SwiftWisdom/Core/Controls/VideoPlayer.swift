@@ -9,7 +9,7 @@
 import AVKit
 import AVFoundation
 
-import IP_UIKit_Wisdom
+import IpUIKitWisdom
 
 // MARK: AV Extensions
 

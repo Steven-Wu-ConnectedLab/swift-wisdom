@@ -1,0 +1,8 @@
+# +-------------------------------------+
+# |                                     |
+# | Cartfile LAST SCRUBBED:  10-30-2018 |
+# |                                     |
+# +-------------------------------------+
+
+github "Steven-Wu-ConnectedLab/uikit-wisdom" "master"
+github "ReactiveX/RxSwift"

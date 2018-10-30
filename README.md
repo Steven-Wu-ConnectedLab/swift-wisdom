@@ -14,17 +14,27 @@ The reason for the grab bag approach is to make it easier to facilitate the addi
 - Swift 3 -> `0.6.1` through `0.8.1`
 - Swift 2 -> anything through `0.5.2`
 
-### Core
+### Installation
 
+## CocoaPods
+
+Core
 ```Ruby
 pod 'Intrepid'
 ```
 
-### Subspecs
-
+Core + Rx-extensions
 ```Ruby
-pod 'Intrepid/Rx' # Intrepid's RxSwift Extensions
+pod 'Intrepid/Rx'
 ```
+
+### Carthage
+
+```
+github "IntrepidPursuits/swift-wisdom"
+```
+
+Core will build to `IpSwiftWisdom.framework`, and if you'd like the Rx-extensions, use `RxIpSwiftWisdom.framework`
 
 ### Testing Additions
 
